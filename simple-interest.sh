@@ -11,7 +11,7 @@ echo "Enter the time period (in years):"
 read time
 
 # Calculate simple interest
-interast=$(echo "$principal * $rate * $time" | bc)
+interest=$(echo "$principal * $rate * $time" | bc)
 
 # Display the result
 echo "Simple Interest: $interest"
